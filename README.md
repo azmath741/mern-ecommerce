@@ -2,6 +2,8 @@
 
 A modern, full-stack **E-Commerce Web Application** built using MongoDB, Express.js, React (Vite), and Node.js with Tailwind CSS, Axios, and JWT authentication.
 
+🚀 **Live Deployment**: [https://vercel.com/azmath-alis-projects-804509f9/mern-ecommerce](https://vercel.com/azmath-alis-projects-804509f9/mern-ecommerce)
+
 ---
 
 ## 🌟 Key Highlights
