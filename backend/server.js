@@ -20,6 +20,7 @@ const app = express();
 app.use(
   cors({
     origin: [
+      process.env.CLIENT_URL,
       "http://localhost:5174",
       "http://localhost:5173",
       "http://127.0.0.1:5173",
@@ -55,7 +56,7 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 8080;
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running in ${process.env.NODE_ENV || "development"} mode on port ${PORT}`);
 });
 
